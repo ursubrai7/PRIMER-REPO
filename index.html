@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta personal</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+        }
+        .tarjeta{
+            position: absolute;
+        }
+        .card{
+            display: flex;
+            width: 1300px;
+            height: 500px;
+            padding: 40px;
+            background: #fdf8f7;
+            border-radius: 20px;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .text{
+            width: 450px;
+        }
+        div div{
+            margin: 20px;
+        }
+        .img{
+            position: absolute;
+            width: 450px;
+            z-index: 1;
+            top: -1ex
+            
+        }
+        .circulo{
+            position: relative;
+            background: #9c5af3;
+            border-radius: 50%;
+            width: 220px;
+            height: 220px;
+            top: 200px;
+            right: -30px;
+            z-index: 0;
+        }
+        .circulo2{
+            position: relative;
+            background: #fd6f0a2d;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            top: -70px;
+            right: -60px;
+            z-index: 0;
+        }
+        .circulo3{
+            position: relative;
+            background: #fd6f0a0e;
+            border-radius: 50%;
+            width: 180px;
+            height: 180px;
+            top: -310px;
+            right: -100px;
+            z-index: 0;
+        }
+        .abajo{
+            display: flex;
+            width: 600px;
+            height: 80px;
+            padding: 10px;
+            justify-content: space-between;
+            align-items: center;
+            background: rgb(225, 212, 240);
+            border-radius: 100px;
+            box-shadow: 2px 3px 15px #a173dd ;
+        }
+        .barrainferior{
+            position: relative;
+            top: -80px;
+            z-index: 2;
+            font-size: 23px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        i{
+            color: 
+            #370147;
+            font-size: 60px;
+            font-family: monospace;
+            font-weight: 400;
+            
+        }
+        h2{
+            color: #25155f;
+        }
+        h3{
+            color: #15295f;
+            size: 50px;
+        }
+        h5{
+            color: #ba19e2;
+            size: 70px;
+            font-family: monospace;
+            
+        }
+        p{
+            color: #403447f6;
+            font-size: 14px;
+        }
+        .icono{
+            width: 50px;
+        }
+        .logos{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<div class="tarjeta">
+    <section>
+        <div class="card">
+            <div class="text">
+                <h5>Hola, soy</h5>
+                <i>Ursula Braida</i>
+                <h5>Estudiante de programacion</h5>
+                <br>
+                <pre>Acerca de Mi</pre>
+                <p>Como estudiante de programación, soy una persona apasionada por la tecnología y el desarrollo de software. Disfruto resolver problemas y crear soluciones innovadoras, siempre buscando aprender y mejorar mis habilidades en programación y logica. Me encanta estar al tanto de las últimas tendencias tecnológicas y estoy constantemente actualizándome para seguir creciendo en este apasionante campo.</p>
+                <br>
+            </div>
+            <div class="imagen">
+                <img class="img" src="perro2.png" alt="Fotoperfil">
+                <div class="circulo"></div>
+                <div class="circulo2"></div>
+                <div class="circulo3"></div>
+            </div>
+        </div>
+    </section>
+    <section class="barrainferior">
+        <div class="abajo">
+            <div class="logos">
+                <img class="icono" src="calendario.png" alt="años">
+                <div>
+                    <h3>5</h3>
+                    <h5>Años</h5>
+                </div>
+            </div>
+            <div class="logos">
+                <img class="icono" src="proyectos.png" alt="proyectos">
+                <div>
+                    <h3>+50</h3>
+                    <h5>Proyectos</h5>
+                </div>
+            </div>
+            <div class="logos">
+                <img class="icono" src="clientespng.webp" alt="clientes">
+                <div>
+                    <h3>30</h3>
+                    <h5>Clientes</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+</html>
